@@ -1,0 +1,127 @@
+.headerContainer {
+  width: 100%;
+  display: flex;
+  height: 15px;
+
+  margin-bottom: 10px;
+  p {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #999;
+    font-family: Roboto;
+    font-size: 11px;
+    gap: 5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    align-items: center;
+    flex: 1;
+  }
+  p:first-child {
+    flex: 3;
+    padding-left: 5px;
+  }
+  p:last-child {
+    flex: 2;
+  }
+}
+.item {
+  width: 100%;
+  display: flex;
+  height: 70px;
+  border-radius: 3px;
+  background: #fff;
+  margin-bottom: 5px;
+  align-items: center;
+
+  p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex: 1;
+  }
+}
+.item p:first-of-type {
+  font-weight: 500;
+  font-size: 13px;
+  padding-left: 10px;
+  gap: 100px;
+  flex: 3;
+}
+.item p:last-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  flex: 2;
+  padding-right: 10px;
+}
+.item:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.status-red {
+  width: 4px;
+  height: 70px;
+  background-color: #e14165;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.status-blue {
+  border-radius: 3px 0px 0px 3px;
+  width: 4px;
+  height: 70px;
+  background-color: #c2c2ff;
+}
+
+.status-violet {
+  border-radius: 3px 0px 0px 3px;
+  width: 4px;
+  height: 70px;
+  background-color: #8686ff;
+}
+
+.status-online {
+  color: #1bda9d;
+}
+
+.status-paused {
+  color: #ff8346;
+}
+
+.status-draft {
+  color: #5c5c5c;
+}
+.status-stopped {
+  color: #fe4848;
+}
+.resultsButton {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  background: #2ee5ac;
+  border: none;
+  padding: 5px;
+  text-decoration: none;
+}
+.resultsFinalize {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  background: #7d7d7d;
+  border: none;
+  padding: 5px;
+  text-decoration: none;
+}
